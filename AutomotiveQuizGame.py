@@ -1,5 +1,6 @@
 print("Welcome to 'The Automotive Quiz'!")
 
+
 questions = ("What engine type does a Mazda RX-7 have?: ",
              "Is Mercedes Italian?: ",
              "What is AWD?: ",
@@ -23,6 +24,7 @@ options = (("A. A wankel/rotary engine", "B. A boxer engine", "C. A V6", "D. An 
            ("A. Enzo Ferrari", "B. Soichiro Honda", "C. Ferruccio Lamborghini", "D. Kiichiro Toyoda"))
 
 answers = ("A", "C", "C", "A", "C", "B", "A", "B")
+
 
 while True:
     guesses = []
