@@ -34,8 +34,8 @@ while True:
         print("VALID")
         break
     else:
-        try_again = input("INAVLID, TRY AGAIN? (yes/no): ").lower()
+        try_again = input("INAVLID, TRY AGAIN? (YES/NO): ").lower()
         if try_again != "yes":
             break
 
-print("Thank you for using this service!")
+print("THANK YOU FOR USING THIS SERVICE!")
