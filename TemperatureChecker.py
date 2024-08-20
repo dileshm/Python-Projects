@@ -1,3 +1,7 @@
+print("---------------------------------------------------------------")
+print("------------------------TODAYS TEMPERATURE---------------------")
+print("---------------------------------------------------------------")
+
 unit = input(
     "What unit would you like to view today's temperature in (C/F): ").upper()
 temp = float(input("Enter the temperature: "))

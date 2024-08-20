@@ -7,10 +7,11 @@ key = chars.copy()
 
 random.shuffle(key)
 
-# print(f"chars : {chars}")  characters used
-# print(f"key : {key}") key used
+print("---------------------------------------------------------------")
+print("-------------------MESSAGE ENCRYPTION SERVICE------------------")
+print("---------------------------------------------------------------")
 
-# MessageEncryption
+# Message Encryption
 plain_text = input("Enter a message to encrypt: ")
 cipher_text = ""
 
@@ -18,16 +19,24 @@ for letter in plain_text:
     index = chars.index(letter)
     cipher_text += key[index]
 
-print(f"original message: {plain_text}")
-print(f"encrypted message: {cipher_text}")
+print(f"Original message: {plain_text}")
+print(f"Encrypted message: {cipher_text}")
 
-# MessageDecryption
-cipher_text = input("Enter a message to encrypt: ")
-plain_text = ""
+# Message Decryption Loop
+while True:
+    decrypt_choice = input(
+        "Do you want to decrypt the message? (yes/no): ").lower()
 
-for letter in cipher_text:
-    index = chars.index(letter)
-    plain_text += chars[index]
+    if decrypt_choice == 'yes':
+        plain_text = ""
+        for letter in cipher_text:
+            index = key.index(letter)  # Correctly use 'key' for decryption
+            plain_text += chars[index]
 
-print(f"encrypted message: {cipher_text}")
-print(f"original message: {plain_text}")
+        print(f"Encrypted message: {cipher_text}")
+        print(f"Original message: {plain_text}")
+        print("Your message has been decrypted.")
+        break
+    else:
+        print("Encryption/Decryption process ended.")
+        break
