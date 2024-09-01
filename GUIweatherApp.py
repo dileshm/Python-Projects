@@ -43,6 +43,12 @@ class WeatherApp(QWidget):
         self.weather_indicator.setObjectName("weather_indicator")
         self.description_label.setObjectName("description_label")
 
+        self.setStyleSheet("""
+            QLabel, QPushButton{
+                font-family: calibri;
+            }
+        """)
+
 
 if __name__ == "__main__":
     app = QApplication(sys.argv)
