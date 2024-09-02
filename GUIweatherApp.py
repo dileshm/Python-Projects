@@ -47,6 +47,10 @@ class WeatherApp(QWidget):
             QLabel, QPushButton{
                 font-family: calibri;
             }
+            QLabel#city_label{
+                    font-size: 40px;
+                    font-style: italic;             
+            }
         """)
 
 
