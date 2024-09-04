@@ -48,10 +48,30 @@ class WeatherApp(QWidget):
                 font-family: calibri;
             }
             QLabel#city_label{
-                    font-size: 40px;
-                    font-style: italic;             
+                font-size: 40px;
+                font-style: italic;             
+            }
+            QLineEdit#city_input{
+                font-size: 40px;
+            }
+            QPushButton#get_weather_button{
+                font-size: 30px;
+                font-weight: bold;
+            }
+            QLabel#temperature_label{
+                font-size: 75px;              
+            }
+            QLabel#weather_indicator{
+                font-size: 100px;
+                font-family: Segoe UI emoji;
+            }
+            QLabel#description_label{
+                font-size: 50px;          
             }
         """)
+
+    def get_weather(self):
+        pass
 
 
 if __name__ == "__main__":
