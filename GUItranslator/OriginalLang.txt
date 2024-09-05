@@ -1,7 +1,0 @@
-Hello, how are you today?
-
-Do you like to code?
-
-Do you like to learn about Languages?
-
-Try this script!

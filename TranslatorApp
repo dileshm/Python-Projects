@@ -1,0 +1,25 @@
+import sys
+import translate
+from PyQt5.QtWidgets import (QApplication, QWidget, QLabel,
+                             QLineEdit, QPushButton, QVBoxLayout)
+from PyQt5.QtCore import Qt
+
+
+class TranslatorApp(QWidget):
+    def __init__(self):
+        super().__init__()
+        self.translate_label = QLabel("Enter here: ", self)
+        self.translate_input = QLineEdit(self)
+        self.translate_button = QPushButton("Translate", self)
+        self.result_label = QLabel
+        self.initUI()
+
+    def initUI(self):
+        pass
+
+
+if __name__ == "__main__":
+    app = QApplication(sys.argv)
+    translator_app = TranslatorApp()
+    translator_app.show()
+    sys.exit(app.exec_())
