@@ -77,6 +77,10 @@ class WeatherApp(QWidget):
 
     def get_weather(self):
 
+        # api_key = ""
+        # city = self.city_input.text()
+        # url = f"data{city}{api_key}"
+
         try:
             response = requests.get(url)
             response.raise_for_status()
@@ -129,7 +133,7 @@ class WeatherApp(QWidget):
         self.temperature_label.setStyleSheet("font-size: 75px")
         temperature_k = data["main"]["temp"]
         temperature_c = temperature_k - 273.15
-        temperature_f = (temperature_k * 9/5) - 459.67
+        # temperature_f = (temperature_k * 9/5) - 459.67
         weather_id = data["weather"][0]["id"]
         weather_description = data["weather"][0]["description"]
 
