@@ -1,15 +1,16 @@
-<h1>Oean Temperature Machine Learning</h1>
+<h1>Ocean Temperature Machine Learning</h1>
 
 <h2>Description</h2>
-Project uses selenium to access the website where we will scrape data for Global Sea Surface temperatures over the years, then will convert that data into a graph in python and after will create a prediction graph in the end.
+This project uses Selenium to access a website where global sea surface temperature data is scraped over the years. The data is then visualized in Python, and finally, a prediction graph is created using machine learning models.
 <br />
-
 
 <h2>Languages and Utilities Used</h2>
 
 - <b>Python</b> 
 - <b>Selenium</b>
 - <b>Pandas</b>
+- <b>Matplotlib</b>
+- <b>Scikit-Learn</b>
 <!--
 <h2>Program walk-through:</h2>
 
