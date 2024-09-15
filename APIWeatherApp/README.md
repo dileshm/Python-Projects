@@ -1,12 +1,15 @@
+<h1>API Weather App</h1>
 
-Here’s a similar description for your Google Translate API app:
+<h2>Description</h2>
+This project utilizes APIs to retrieve real-time weather data for any location. The app fetches data such as temperature, humidity, and weather conditions, and displays the information in a user-friendly format. It also demonstrates how to work with external APIs and manipulate data in Python.
+<br />
 
-<h1>Google Translate API App</h1> <h2>Description</h2> This project uses the Google Translate API to translate text between different languages. The app allows users to input text and select the desired languages for translation, retrieving accurate results in real-time. It demonstrates how to work with external APIs, handle user input, and manipulate data in Python. <br /> <h2>Languages and Utilities I Will Be Using</h2>
-<b>Python</b>
-<b>Requests</b>
-<b>JSON</b>
-<b>Google Translate API</b>
+<h2>Languages and Utilities Used</h2>
 
+- <b>Python</b> 
+- <b>Requests</b>
+- <b>JSON</b>
+- <b>APIs</b>
 <!--
 <h2>Program walk-through:</h2>
 
