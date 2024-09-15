@@ -9,7 +9,7 @@ This project utilizes APIs to retrieve real-time weather data for any location. 
 - <b>Python</b> 
 - <b>Requests</b>
 - <b>JSON</b>
-- <b>APIs</b>
+- <b>Open Weather API</b>
 <!--
 <h2>Program walk-through:</h2>
 
