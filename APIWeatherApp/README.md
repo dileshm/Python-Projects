@@ -1,7 +1,7 @@
 <h1>API Weather App</h1>
 
 <h2>Description</h2>
-This project utilizes APIs to retrieve real-time weather data for any location. The app fetches data such as temperature, humidity, and weather conditions, and displays the information in a user-friendly format. It also demonstrates how to work with external APIs and manipulate data in Python.
+This project utilises APIs to retrieve real-time weather data for any location. The app fetches data such as temperature, humidity, and weather conditions, and displays the information in a user-friendly format. It also demonstrates how to work with external APIs and manipulate data in Python.
 <br />
 
 <h2>Languages and Utilities Used</h2>
