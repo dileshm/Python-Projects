@@ -1,11 +1,8 @@
-<h1>Messenger App</h1>
+<h1>Hacker News Web Scraper</h1> 
 
-<h2>Description</h2>
-This project implements a command-line based messaging application using sockets. The app enables users to send and receive messages in real-time between clients connected to a server. It demonstrates the use of socket programming for network communication and provides a basic interface for text-based messaging.
-<br />
+<h2>Description</h2> This project implements a web scraper for the Hacker News website using Python's `requests` and `BeautifulSoup` libraries. The scraper collects and aggregates articles from the first two pages of Hacker News, sorting them based on the number of votes. It demonstrates the ability to extract data from web pages, parse HTML, and process information for custom output. <h2>Languages and Libraries Used</h2>
 
-<h2>Languages And Utilities To Be Used</h2>
-
-- <b>Python</b> 
-- <b>Sockets</b>
+- <b>Python</b>
+- <b>Requests</b>
+- <b>BeautifulSoup</b>
 - <b>Command Line</b>
