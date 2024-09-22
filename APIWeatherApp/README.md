@@ -1,22 +1,20 @@
 <h1>API Weather App</h1>
 
 <h2>Description</h2>
-This project utilises APIs to retrieve real-time weather data for any location. The app fetches data such as temperature, humidity, and weather conditions, and displays the information in a user-friendly format. It also demonstrates how to work with external APIs and manipulate data in Python.
-<br />
+This project is a weather application that retrieves real-time weather data for any location using the OpenWeather API. Users can enter a city name, and the app will fetch and display information such as temperature, weather conditions, and a descriptive emoji based on the current weather. The project demonstrates how to work with external APIs and handle data in Python.
 
 <h2>Languages and Utilities Used</h2>
+<ul>
+  <li><b>Python</b></li>
+  <li><b>Requests</b> (for API requests)</li>
+  <li><b>JSON</b> (for parsing API response)</li>
+  <li><b>OpenWeather API</b></li>
+  <li><b>PyQt5</b> (for building the graphical user interface)</li>
+</ul>
 
-- <b>Python</b> 
-- <b>Requests</b>
-- <b>JSON</b>
-- <b>Open Weather API</b>
-  
 <h2>App Presentation</h2>
-
 <p align="center">
-
-<img src="![image](https://github.com/user-attachments/assets/be18074b-0ece-4315-ab7f-0604156cfcae)
-" height="80%" width="80%" alt="Enter city name, see current weather"/>
+  <img src="https://github.com/username/project-name/raw/main/assets/weather_app_screenshot.png" height="80%" width="80%" alt="Enter city name, see current weather"/>
 </p>
 
 <!--
