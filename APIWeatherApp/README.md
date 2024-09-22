@@ -10,18 +10,13 @@ This project utilises APIs to retrieve real-time weather data for any location. 
 - <b>Requests</b>
 - <b>JSON</b>
 - <b>Open Weather API</b>
-<!--
-<h2>Program walk-through:</h2>
+  
+<h2>App Presentation</h2>
 
 <p align="center">
-Launch the utility: <br/>
-<img src="https://i.imgr.com/62TgaWL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Enter the number of passes: <br/>
-<img src="https://i.imgr.com/nCIbXbg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
+
+<img src="![image](https://github.com/user-attachments/assets/be18074b-0ece-4315-ab7f-0604156cfcae)
+" height="80%" width="80%" alt="Enter city name, see current weather"/>
 </p>
 
 <!--
