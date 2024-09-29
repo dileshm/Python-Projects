@@ -1,27 +1,20 @@
 <h1>API Weather App</h1>
 
 <h2>Description</h2>
-This project utilizes APIs to retrieve real-time weather data for any location. The app fetches data such as temperature, humidity, and weather conditions, and displays the information in a user-friendly format. It also demonstrates how to work with external APIs and manipulate data in Python.
-<br />
+This project is a weather application that retrieves real-time weather data for any location using the OpenWeather API. Users can enter a city name, and the app will fetch and display information such as temperature, weather conditions, and a descriptive emoji based on the current weather. The project demonstrates how to work with external APIs and handle data in Python.
 
 <h2>Languages and Utilities Used</h2>
+<ul>
+  <li><b>Python</b></li>
+  <li><b>Requests</b> (for API requests)</li>
+  <li><b>JSON</b> (for parsing API response)</li>
+  <li><b>OpenWeather API</b></li>
+  <li><b>PyQt5</b> (for building the graphical user interface)</li>
+</ul>
 
-- <b>Python</b> 
-- <b>Requests</b>
-- <b>JSON</b>
-- <b>Open Weather API</b>
-<!--
-<h2>Program walk-through:</h2>
-
+<h2>App Presentation</h2>
 <p align="center">
-Launch the utility: <br/>
-<img src="https://i.imgr.com/62TgaWL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Enter the number of passes: <br/>
-<img src="https://i.imgr.com/nCIbXbg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
+  <img src="https://github.com/username/project-name/raw/main/assets/weather_app_screenshot.png" height="80%" width="80%" alt="Enter city name, see current weather"/>
 </p>
 
 <!--
