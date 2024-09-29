@@ -1,5 +1,7 @@
 import sys
 import requests
+import os
+from dotenv import load_dotenv
 from PyQt5.QtWidgets import (QApplication, QWidget, QLabel,
                              QLineEdit, QPushButton, QVBoxLayout)
 from PyQt5.QtCore import Qt
@@ -19,7 +21,8 @@ class WeatherApp(QWidget):
 
     def initUI(self):
         self.setWindowTitle("Weather App")
-        self.setWindowIcon(QIcon("APIWeatherApp\weather_icon.png"))
+        icon_path = os.path.join(os.path.dirname(__file__), "weather_icon.png")
+        self.setWindowIcon(QIcon(icon_path))
 
         vbox = QVBoxLayout()
 
@@ -77,9 +80,11 @@ class WeatherApp(QWidget):
 
     def get_weather(self):
 
-        # api_key = ""
-        # city = self.city_input.text()
-        # url = f"data{city}{api_key}"
+        load_dotenv
+        api_key = os.getenv("weather_key")
+        city = self.city_input.text()
+        url = f"https://api.openweathermap.org/data/2.5/weather?q={
+            city}&appid={api_key}"
 
         try:
             response = requests.get(url)
