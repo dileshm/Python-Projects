@@ -1,11 +1,12 @@
+from PyQt5.QtGui import QIcon
+from PyQt5.QtCore import Qt
+from PyQt5.QtWidgets import (QApplication, QWidget, QLabel,
+                             QLineEdit, QPushButton, QVBoxLayout)
 import sys
 import requests
 import os
 from dotenv import load_dotenv
-from PyQt5.QtWidgets import (QApplication, QWidget, QLabel,
-                             QLineEdit, QPushButton, QVBoxLayout)
-from PyQt5.QtCore import Qt
-from PyQt5.QtGui import QIcon
+load_dotenv(os.path.join("C:/Documents/VS Workspace", ".env"))
 
 
 class WeatherApp(QWidget):
@@ -80,7 +81,7 @@ class WeatherApp(QWidget):
 
     def get_weather(self):
 
-        load_dotenv
+        load_dotenv()
         api_key = os.getenv("weather_key")
         city = self.city_input.text()
         url = f"https://api.openweathermap.org/data/2.5/weather?q={
