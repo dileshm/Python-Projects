@@ -1,0 +1,39 @@
+from PyQt5.QtGui import QIcon
+from PyQt5.QtCore import Qt
+from PyQt5.QtWidgets import (QApplication, QWidget, QLabel,
+                             QLineEdit, QPushButton, QVBoxLayout)
+import sys
+import requests
+import os
+from dotenv import load_dotenv
+load_dotenv(os.path.join("C:/Documents/VS Workspace", ".env"))
+
+
+class TranslateApp(QWidget):
+    def __init__(self):
+        super().__init__()
+        self.translate_input = QLabel("Enter: ", self)
+        self.translate_input = QLineEdit(self)
+        self.get_translation_button = QPushButton("Get Translation", self)
+        self.country_flag = QLabel(self)
+        self.initUI()
+
+    def initUI(self):
+        self.setWindowTitle("Translate App")
+        icon_path = os.path.join(os.path.dirname(
+            __file__), "translate_icon.png")
+        self.setWindowIcon(QIcon(icon_path))
+
+        vbox = QVBoxLayout()
+
+        vbox.addWidget()
+        vbox.addWidget()
+        vbox.addWidget()
+        vbox.addWidget()
+
+
+if __name__ == "__main__":
+    app = QApplication(sys.argv)
+    translate_app = TranslateApp()
+    translate_app.show()
+    sys.exit(app.exec_())
