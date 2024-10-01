@@ -7,7 +7,7 @@ This project implements a full-stack web application that monitors and controls 
 
 - <b>Python/Django (Backend)</b>
 - <b>HTML/CSS/JavaScript (Frontend)</b>
-- <b>Raspberry Pi + Cameras (Hardware)</b>
+- <b>Raspberry Pi + Camera (Hardware)</b>
 - <b>SQLite(Database)</b>
 - <b>REST API</b>
 - <b>OpenCV (Video Processing)</b>
