@@ -1,7 +1,7 @@
 <h1>Oceanic Temperature Trends & Predictions</h1>
 
 <h2>Description</h2>
-This project uses Selenium to scrape aglobal sea surface temperature data from over the years. The data is then visualized in Python, and finally, a prediction graph is created using machine learning models.
+Uses Selenium to scrape aglobal sea surface temperature data from over the years. The data is then visualized in Python, and finally, a prediction graph is created using machine learning models.
 <br />
 
 <h2>Languages and Utilities Used</h2>
